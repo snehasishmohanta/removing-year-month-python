@@ -7,7 +7,7 @@
 import re
 import datetime
 
-with open("json.txt") as text:
+with open("log.txt") as text:
         for line in text:
                 date = set(re.findall("\[([^]]+)\]", line))
                 for i in date:
